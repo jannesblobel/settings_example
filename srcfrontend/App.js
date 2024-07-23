@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import { Trans } from 'react-i18next';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-            <Trans i18nKey="edit_and_reload">Edit <code>src/App.js</code> and save to reload.</Trans>
+          <p>
+            {t("these_agent_parrot_dine")} <code>src/App.js</code>
+          </p>
         </p>
         <a
           className="App-link"
@@ -16,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-            <Trans i18nKey="learn_react">Learn React</Trans>
+          <div>{t("antsy_extra_javelina_trim")}</div>
         </a>
       </header>
     </div>
